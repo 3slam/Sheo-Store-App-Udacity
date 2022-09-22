@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="welcome_to_our_shoe_app">welcome to our shoe app</string>
+    <string name="our_store_offers_a_distinguished_service_with_the_best_prices_and_the_highest_materials_and_we_care_well_about_the_after_sales_service_and_we_have_good_customer_service">Our store offers a distinguished service with the best prices and the highest materials and we care well about the after-sales service and we have good customer service</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="company">Company</string>
+    <string name="size">Size</string>
+    <string name="description">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="the_next_screen_contains_a_list_containing_all_the_shoes_in_the_store_and_to_move_to_the_next_screen_we_must_press_the_button_below">The next screen contains a list containing all the shoes in the store and to move to the next screen we must press the button below</string>
+    <string name="this_screen_shows_you_the_information_you_need_to_know_to_deal_with_the_program_and_to_know_all_parts_of_the_program">This screen shows you the information you need to know to deal with the program and to know all parts of the program</string>
+    <string name="next">next</string>
+    <string name="color">Color</string>
+    <string name="type">Type</string>
+    <string name="descrition">descrition</string>
+    <string name="descrition2">Descrition</string>
+    <string name="in_our_app_you_can_app_any_shoe_you_want_and_we_will_get_it_for_you">in our app you can app any shoe you want and we will get it for you</string>
+
+
+</resources>

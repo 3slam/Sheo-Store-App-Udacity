@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.shoestore.ui.login.LoginFragment"
+        android:label="Login screen"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_welcomeScreenFragment"
+            app:destination="@id/welcomeScreenFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeScreenFragment"
+        android:name="com.example.shoestore.ui.welcome.WelcomeScreenFragment"
+        android:label="WelcomeScreenFragment"
+        tools:layout="@layout/fragment_welcome_screen">
+
+
+        <action
+            android:id="@+id/action_welcomeScreenFragment_to_instructionFragment"
+            app:destination="@id/instructionFragment" />
+        <action
+            android:id="@+id/action_welcomeScreenFragment_to_sheoeListFragment2"
+            app:destination="@id/sheoeListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sheoeListFragment"
+        android:name="com.example.shoestore.views.SheoeListFragment"
+        android:label="Sheoe List"
+        tools:layout="@layout/fragment_sheoe_list">
+        <action
+            android:id="@+id/action_sheoeListFragment_to_shoeDetailFragment"
+            app:destination="@id/shoeDetailFragment" />
+        <action
+            android:id="@+id/action_sheoeListFragment_to_loginFragment2"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/sheoeListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoeDetailFragment"
+        android:name="com.example.shoestore.views.ShoeDetailFragment"
+        android:label="Shoe Details"
+        tools:layout="@layout/fragment_shoe_detail">
+        <action
+            android:id="@+id/action_shoeDetailFragment_to_sheoeListFragment"
+            app:destination="@id/sheoeListFragment"
+            app:popUpTo="@id/sheoeListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/instructionFragment"
+        android:name="com.example.shoestore.ui.instructions.InstructionFragment"
+        android:label="InstructionFragment" >
+        <action
+            android:id="@+id/action_instructionFragment_to_sheoeListFragment"
+            app:destination="@id/sheoeListFragment" />
+    </fragment>
+</navigation>
